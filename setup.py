@@ -10,7 +10,7 @@ def fread(filepath):
 
 
 def version():
-    content = fread('livereload/__init__.py')
+    content = fread('kiqpoliveserver/__init__.py')
     pattern = r"__version__ = '([0-9\.dev]*)'"
     m = re.findall(pattern, content)
     return m[0]
@@ -22,15 +22,10 @@ setup(
     author='kiqpo',
     author_email='shajin.sha10@gmail.com',
     url='https://github.com/kiqpo',
-    packages=['kiqpolivereload', 'livereload.management.commands'],
+    packages=['kiqpoliveserver'],
     description='Python live reload server build as part of kiqpo',
     long_description_content_type='text/markdown',
     long_description=fread('README.md'),
-    entry_points={
-        'console_scripts': [
-            'livereload = livereload.cli:main',
-        ]
-    },
     install_requires=[
         'tornado',
     ],

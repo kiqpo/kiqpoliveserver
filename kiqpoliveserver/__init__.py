@@ -1,16 +1,6 @@
-"""
-    livereload
-    ~~~~~~~~~~
-
-    A python version of livereload.
-
-    :copyright: (c) 2013 by Hsiaoming Yang
-    :license: BSD, see LICENSE for more details.
-"""
-
-__version__ = '2.6.3'
-__author__ = 'Hsiaoming Yang <me@lepture.com>'
-__homepage__ = 'https://github.com/lepture/python-livereload'
+__version__ = '0.0.9'
+__author__ = 'kiqpo'
+__homepage__ = 'https://github.com/kiqpo'
 
 from .server import Server, shell
 

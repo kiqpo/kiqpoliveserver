@@ -1,5 +1,5 @@
  # KiqpoLiveServer
- ### Python live reload server build as part of [kiqpo]('github.com/kiqpo').
+ ### Python live reload server build as part of [kiqpo]('https://github.com/kiqpo').
 
  ### Contributing
 
